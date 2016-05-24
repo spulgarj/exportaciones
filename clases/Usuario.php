@@ -18,7 +18,24 @@ class Usuario{
 	public function getIdacceso(){
 		return $this->nidacceso;
 	}
-	
+        
+        public function getNidacceso() {
+            return $this->nidacceso;
+        }
+
+        public function getSnombre() {
+            return $this->snombre;
+        }
+
+        public function getSusuario() {
+            return $this->susuario;
+        }
+
+        public function getSclave() {
+            return $this->sclave;
+        }
+
+        	
 	function VerificaUsuario(){
 		$db=dbconnect();
 		/*Definici�n del query que permitira ingresar un nuevo registro*/

@@ -25,7 +25,7 @@ else{
 $oUsr=$_SESSION["oUsuario"];
 ?>
 
-BIENVENIDO: <?=$oUsr->getNombre();?><a href="logout.php">Salir</a>
+    BIENVENIDO: <?=$oUsr->getNombre();?><a href="CambiarClave.php">Cambiar Contraseña </a> <a href="logout.php">Salir</a>
 <?php }?>
 </body>
 </html>
